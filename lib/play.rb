@@ -38,7 +38,9 @@ end
 # Define your play method below
 
 def play(board)
-  while counter <= 9
+  loop do
     turn(board)
+    if board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"] 
+      break 
   end
 end
