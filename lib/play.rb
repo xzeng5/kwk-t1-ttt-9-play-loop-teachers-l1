@@ -41,6 +41,7 @@ def play(board)
   loop do
     turn(board)
     if board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-      break 
+      break
+    end
   end
 end
