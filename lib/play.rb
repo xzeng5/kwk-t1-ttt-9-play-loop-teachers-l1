@@ -36,11 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
-
+counter = 0
 def play(board)
-  until turn_number == 9
+  until counter == 9
     turn(board)
-    puts "This is your turn # #{turn_number}"
-    turn_number += 1
+    puts "This is your turn # #{counter}"
+    counter += 1
   end
 end
